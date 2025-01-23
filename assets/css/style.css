@@ -1,0 +1,277 @@
+/* 全体の設定 */
+
+* {
+    margin: auto;
+    padding: 0;
+    color: #333;
+}
+
+a {
+    text-decoration: none;   
+}
+
+/* ヘッダー */
+.header {
+    background-color: ;
+    margin:2vw auto;
+    width:98%;
+    height:100px;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    width:10vw;
+    height:10vw;
+}
+
+header .welcome {
+    font-size: 5vw;
+    display: flex;
+    align-items: center;
+}
+.header ul {
+    display: flex;
+    
+}
+
+.header li {
+    padding-left: 15px;
+    font-size: 2vw;
+}
+
+/* top写真 */
+.photo-flame {
+    width: 100%;
+}
+
+.photos {
+    position: relative;
+}
+
+.photos img {
+   
+    width: 100%;
+}
+/* 写真に重なった文字 */
+.photos h1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute; /* 重ねたい子要素にabsolute */
+    top:45%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
+    -webkit-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
+    transform: translate(-50%,-50%);/*センター寄せの修正*/
+    color: #fff;
+    font-size: 8vw;
+    margin: 0!important;/*文字がずれている場合や*/
+    padding: 0!important;/*文字が折り返される場合*/
+}
+
+
+/* main */
+main{
+    /* background-color:rgb(8, 194, 255); */
+    margin:auto;
+    padding:50px 0;
+    width: 100%;
+}
+
+.section2 {
+    margin:auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.section2 h2 {
+    font-size: 4.5vw;
+}
+
+.intro {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+}
+
+article {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px auto;
+    width: 90%;
+}
+
+.news-blog {
+    width: 450%;
+}
+.news-blog:last-child {
+    margin-left: 15px;
+}
+.news-blog p {
+    padding: 10px;
+    font-size: 2vw;
+}
+
+.news-area p {
+    border-bottom: 1px solid #333;
+    font-size: 1.5vw;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.news-area span {
+    font-size: 1vw;
+}
+
+.news-area a {
+    margin-left: 10px;
+}
+
+.news-area {
+    background-color: white;
+    max-height: 180px; /* 必要な高さを指定 */
+    overflow-y: auto; /* 縦スクロールバーを表示 */
+    padding-right: 10px; /* スクロールバーによる内容の隠れを防ぐ */
+}
+
+/* スクロールバーのデザインをカスタマイズする場合 (オプション) */
+.news-area::-webkit-scrollbar {
+    width: 8px; /* スクロールバーの幅 */
+}
+
+.news-area::-webkit-scrollbar-thumb {
+    background-color: #888; /* スクロールバーのつまみ部分 */
+    border-radius: 4px; /* 丸みを持たせる */
+}
+
+.news-area::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* ホバー時の色 */
+}
+
+.news-area::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* スクロールバーの背景色 */
+}
+
+
+
+
+.section3 {
+    margin: 40px auto;
+    width: 90%;
+}
+
+.menu p{
+    text-align: center;
+    font-size: 5vw;
+    padding-bottom: 20px;
+}
+
+
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.about {
+    width:100%;
+    border: 1px solid #333;
+    background-color: whitesmoke;
+}
+
+.about img {
+    width: 22.92vw;
+    height: calc(22.92vw * (220 / 330)); /* 高さは幅に基づいて調整 */
+    opacity: 0.7;
+}
+
+.info-img {
+    position:relative;
+}
+
+
+.info-img p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute; /* 重ねたい子要素にabsolute */
+    top:60%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
+    -webkit-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
+    transform: translate(-50%,-50%);/*センター寄せの修正*/
+    color: white;
+    font-size:1.8vw ;
+    margin: 0!important;/*文字がずれている場合や*/
+    padding: 0!important;
+}
+
+.about p {
+    font-size: 2vw;
+}
+
+.section4 {
+    margin: 40px auto;
+    width: 90%;
+}
+
+.btn-flat-logo {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    color: #FFF;
+    background: rgb(8, 194, 255);
+    transition: .4s;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    width: 200px;
+  }
+  
+  .btn-flat-logo:hover {
+    background: #1ec7bb;
+  }
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    height: 100px;
+    background-color:rgb(0, 107, 255);
+}
+
+.sns {
+    height:60px;
+}
+.fab {
+    font-size: 4vw;
+}
+.fa-instagram {
+    padding: 0 20px;
+}
+
+small {
+    font-size: 2vw;
+}
