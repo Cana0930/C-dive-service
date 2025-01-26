@@ -1,0 +1,133 @@
+/* 全体の設定 */
+
+* {
+    margin: auto;
+    padding: 0;
+    color: #333;
+}
+
+a {
+    text-decoration: none;   
+}
+
+/* ヘッダー */
+.header {
+    margin:2vw auto;
+    width:98%;
+    height:100px;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    width:10vw;
+    height:10vw;
+}
+
+header .welcome {
+    font-size: 5vw;
+    display: flex;
+    align-items: center;
+}
+.header ul {
+    display: flex;
+    
+}
+
+.header li {
+    padding-left: 15px;
+    font-size: 2vw;
+}
+
+/* top写真 */
+.photo-flame {
+    width: 100%;
+}
+
+.photos {
+    position: relative;
+}
+
+.photos img {
+   
+    width: 100%;
+}
+/* 写真に重なった文字 */
+.photos h1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute; /* 重ねたい子要素にabsolute */
+    top:45%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
+    -webkit-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
+    transform: translate(-50%,-50%);/*センター寄せの修正*/
+    color: #fff;
+    font-size: 8vw;
+    margin: 0!important;/*文字がずれている場合や*/
+    padding: 0!important;/*文字が折り返される場合*/
+}
+
+
+.section2, .section3 {
+    width: 90%;
+    margin:30px auto;
+    font-size: 1.8vw;
+}
+
+.section3 {
+    padding-bottom: 50px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+.title p {
+    color: red;
+    font-size: 3vw;
+    padding-bottom: 30px;
+}
+
+.rule-title p {
+    font-size: 2.5vw;
+    margin: 15px 0 10px;
+}
+
+.about-rule p {
+    font-size: 1.8vw;
+}
+
+.about-rule a {
+    font-size: 1.6vw;
+    color: rgb(8, 194, 255);
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    height: 100px;
+    background-color:rgb(0, 107, 255);
+}
+
+.sns {
+    height:60px;
+}
+.fab {
+    font-size: 4vw;
+}
+.fa-instagram {
+    padding: 0 20px;
+}
+
+small {
+    font-size: 2vw;
+}
