@@ -1,7 +1,7 @@
 /* 全体の設定 */
 
 * {
-    margin: auto;
+    margin: 0;
     padding: 0;
     color: #333;
 }
@@ -87,6 +87,7 @@ header .welcome {
 .title{
     display: flex;
     justify-content: center;
+    text-decoration: #f00 wavy underline;
 }
 .title p {
     color: red;

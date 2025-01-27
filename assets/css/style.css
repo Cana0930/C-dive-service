@@ -1,7 +1,7 @@
 /* 全体の設定 */
 
 * {
-    margin: auto;
+    margin: 0;
     padding: 0;
     color: #333;
 }
@@ -84,13 +84,12 @@ main{
 }
 
 .section2 {
-    margin:auto;
+    margin: auto;
     width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: auto;
 }
 
 .section2 h2 {
