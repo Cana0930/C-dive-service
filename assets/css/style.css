@@ -12,10 +12,10 @@ a {
 
 /* ヘッダー */
 .header {
-    background-color: ;
+    /* background-color: ; */
     margin:2vw auto;
     width:98%;
-    height:100px;
+    height:15vw;
     display: flex;
     justify-content: space-between;
     display: flex;

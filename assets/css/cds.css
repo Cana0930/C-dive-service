@@ -12,7 +12,7 @@ a {
 .header {
     margin:2vw auto;
     width:98%;
-    height:100px;
+    height:15vw;
     display: flex;
     justify-content: space-between;
     display: flex;
@@ -62,7 +62,7 @@ header .welcome {
     align-items: center; /* 子要素を中央揃え */
     justify-content: center; /* 縦方向に中央揃え */
     width: 90%;
-    margin: 0 auto; /* 左右中央寄せ */
+    margin: 6vw auto; /* 左右中央寄せ */
 }
 
 
@@ -98,6 +98,7 @@ header .welcome {
 .introduce-title {
     font-size: 3vw;
     padding: 0 15px;
+    color: white;
     background: linear-gradient(90deg, rgb(8, 194, 255),rgb(0, 107, 255));
 }
 
