@@ -46,13 +46,13 @@ header .welcome {
 }
 
 .section1 {
-    margin-top: 15vw;
     background: linear-gradient(90deg, rgb(8, 194, 255),rgb(0, 107, 255));
     width: 100%;
     height: 30vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 15vw;
 }
 
 .section1 p {
@@ -61,7 +61,7 @@ header .welcome {
     color: white;
 }
 
-.section2 {
+.section2, .section3 {
     display: flex;
     flex-direction: column; /* 必要なら縦方向に揃える */
     align-items: center; /* 子要素を中央揃え */
@@ -70,7 +70,7 @@ header .welcome {
     margin: 6vw auto; /* 左右中央寄せ */
 }
 
-.introduce {
+.plan {
     display: flex;
     width: 100%;
     height: 30vw;
@@ -81,35 +81,119 @@ header .welcome {
     flex-direction: row-reverse;
 }
 
-.introduce-img {
+.plan-img {
     width: 30vw; /* 任意の幅 */
     height: 30vw; /* 任意の高さ */
     overflow: hidden; /* 子要素がはみ出た場合に隠す */
 }
 
 
-.introduce-img img {
+.plan-img img {
     width: 100%;
     height: 90%;
     object-fit: cover; /* アスペクト比を維持しながら親要素を完全に覆う */
 }
 
-.introduce1 {
+.plan1 {
     width: 100%;
     
 }
 
-.introduce-title {
+.plan-title {
     font-size: 3vw;
     padding: 0 15px;
     color: white;
     background: linear-gradient(90deg, rgb(8, 194, 255),rgb(0, 107, 255));
 }
 
-.introduce-caption {
+.plan-caption {
     font-size: 2vw;
     margin:0 15px;
     padding-top: 2vw;
+}
+
+.price-table {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-title {
+    width: 100%;
+    font-size: 3vw;
+    color: white;
+    background: linear-gradient(90deg, rgb(8, 194, 255),rgb(0, 107, 255));
+}
+
+table{
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    width: 95%;
+    font-size: 3vw;
+    margin-bottom: 20px;
+    margin-top: 2vw;
+}
+.table1 {
+    margin-bottom: 10vw;
+}
+
+.table-title p {
+    text-align: center;
+    color: white;
+}
+
+table td {
+    border: solid 1px black;
+    padding-left: 1.5vw;
+}
+
+table td:last-child {
+    text-align: right;
+    width: 40vw;
+}
+
+.price {
+    width: 90%;
+    font-size: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.price p:last-child {
+    font-size: 2vw;
+}
+
+.section4 {
+    margin: 40px auto;
+    width: 90%;
+}
+
+.btn-flat-logo {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    color: #FFF;
+    background: rgb(8, 194, 255);
+    transition: .4s;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    width: 200px;
+}
+
+.btn-flat-logo:hover {
+    background: #1ec7bb;
 }
 
 .footer{
