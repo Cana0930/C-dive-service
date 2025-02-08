@@ -12,7 +12,7 @@ a {
 
 /* ヘッダー */
 .header {
-    width:98%;
+    width:9%;
     height:15vw;
     display: flex;
     justify-content: space-between;
@@ -36,6 +36,10 @@ header .welcome {
     font-size: 5vw;
     display: flex;
     align-items: center;
+}
+
+.header nav {
+    padding-right: 2vw;
 }
 .header ul {
     display: flex;
@@ -103,15 +107,6 @@ main{
 
 .section2 h2 {
     font-size: 4.5vw;
-}
-
-.intro {
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 3vw;
 }
 
 article {
@@ -214,7 +209,6 @@ article {
 .info {
     display: flex;
     justify-content: space-around;
-    flex-direction: ;
 }
 
 .about {
